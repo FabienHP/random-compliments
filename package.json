@@ -1,19 +1,28 @@
 {
-  "name": "open-source-node-test",
+  "name": "random-compliments",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate random compliments to brighten your day.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FabienHP/open-source-node-package.git"
+    "url": "git+https://github.com/FabienHP/random-compliments.git"
   },
-  "author": "fabienhp",
-  "license": "ISC",
+  "keywords": [
+    "compliments",
+    "fun",
+    "positive",
+    "feelgood"
+  ],
+  "author": "Fiette Fabien fabienfiette@hotmail.fr",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FabienHP/open-source-node-package/issues"
+    "url": "https://github.com/FabienHP/random-compliments/issues"
   },
-  "homepage": "https://github.com/FabienHP/open-source-node-package#readme"
+  "homepage": "https://github.com/FabienHP/random-compliments#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
