@@ -15,6 +15,11 @@ jobs:
           node-version: '20.5.1'
           registry-url: 'https://registry.npmjs.org/'
 
+      - name: Configure Git user
+        run: |
+          git config --local user.email "fabienfiette@hotmail.fr"
+          git config --local user.name "Fiette Fabien"
+
       - run: npm ci
       - run: npm test
         env:
